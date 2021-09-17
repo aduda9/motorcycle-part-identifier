@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import {VSpacer} from '../../general/spacer.js'
 import './style/inventory_style.scss'
 import { result_set_to_list,result_list_to_csv } from "../../../inventory/inventory_utils";
+import { useMediaQuery } from 'react-responsive'
 
 import inventory_manager from "../../../inventory/inventory_manager";
 import classNames from "classnames";
@@ -189,7 +190,7 @@ const default_sort_key = "date_added"
 
 const InventoryPage = ()=>{
 
-    // const isTabletOrMobile = useMediaQuery({ query: '(max-width: 500px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 500px)' })
 
     const [results,setResults]= useState(null);
 
