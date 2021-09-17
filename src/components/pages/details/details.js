@@ -3,11 +3,6 @@ import { HPFPageContainer,HPFPageTitle,HPFFixedIfMobile,HPFHiddenOnMobile } from
 
 import {VSpacer} from '../../general/spacer.js'
 import './style/style.scss'
-import { result_set_to_list } from "../../../inventory/inventory_utils";
-import { useMediaQuery } from 'react-responsive'
-
-import inventory_manager from "../../../inventory/inventory_manager";
-import classNames from "classnames";
 
 
 const HPFPartDetail = (props)=>{
@@ -22,7 +17,6 @@ const HPFPartDetail = (props)=>{
 
 const DetailsPage = ()=>{
 
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 500px)' })
 
     return (
         <HPFPageContainer>

@@ -12,7 +12,6 @@ import {
 
 
 import InventoryPage from './components/pages/inventory/inventory';
-import DetailsPage from './components/pages/details/details';
 // import inventory_manager from './inventory/inventory_manager';
 import { useEffect } from 'react';
 import HPFTopNav from './components/navigation/topnav/topnav';
@@ -49,9 +48,9 @@ function App() {
               <InventoryPage/>
             </Route>
 
-            <Route exact path ="/details">
+            {/* <Route exact path ="/details">
               <DetailsPage/>
-            </Route>
+            </Route> */}
 
         </Switch>
         </div>
