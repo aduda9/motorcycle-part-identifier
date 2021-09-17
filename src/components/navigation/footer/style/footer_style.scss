@@ -1,0 +1,40 @@
+@import '../../../../style/main_style.scss';
+
+
+.hpf_footer_container{
+    // border-top: 1px solid #424242;
+    background:#171717;
+    height:30px;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom:2px;
+}
+
+.hpf_footer_content{
+    max-width:950px;
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.hpf_footer_link{
+    display: flex;
+    flex-direction: row;
+    font-size:12px;
+    color:#555;
+    align-items: center;
+    justify-content: center;
+
+    .eb{
+        color:#999;
+        font-weight:600;
+        margin-left:-2px;
+        // margin-top:2px;
+
+    }
+}

@@ -2,13 +2,22 @@
   "name": "hpf",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@hendt/ebay-api": "^4.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.4",
+    "got": "^11.8.2",
+    "image-capture": "^0.4.0",
+    "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-transition-group": "^1.2.1",
+    "react-webcam": "^6.0.0",
+    "uninstall": "0.0.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

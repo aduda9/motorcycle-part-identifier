@@ -1,0 +1,72 @@
+
+
+@import '../../../style/main_style.scss';
+
+.scanner_content_wrapper{
+    box-sizing: border-box;
+    overflow: auto;
+    max-width: 100%;
+    position:relative;
+}
+.scanner_aspect_ratio_hack{
+    padding-bottom: 56.25%;
+    // background: gold; /** <-- For the demo **/
+}
+
+$rectangle_height_percent:100%;
+
+.scanner_rectangle{
+    position:absolute;
+    height:calc((100% - #{$rectangle_height_percent})/2);
+    width:100%;
+    z-index:1000;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+.scanner_rectangle.top{
+    border-radius: 9px 9px 0px 0px;
+}
+
+.scanner_rectangle.bottom{
+    border-radius:0px 0px 9px 9px;
+    // background-color: red;
+    bottom:0;
+}
+
+.scanner_content {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.scanner_clickable{
+    // border: 1px solid #fff;
+    z-index:30;
+    position: absolute
+}
+
+.camera_style {
+    width:100%;
+    height:100%;
+    border-radius:9px;
+}
+
+.webcam_original{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    // border: 1px solid #fff;
+    // visibility: hidden;
+}
+
+.test{
+    // background-color: red;
+    height:100px;
+    width:100px;
+}

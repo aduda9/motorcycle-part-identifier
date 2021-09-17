@@ -1,0 +1,18 @@
+@import '../../../../style//main_style.scss';
+
+
+.hpf_option_label_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hpf_option_container{
+    flex-direction: row;
+}
+
+.hpf_option_label{
+    font-size:$hpf_label_font_size;
+    margin-bottom:$hpf_label_separation;
+    white-space: nowrap;
+}
+

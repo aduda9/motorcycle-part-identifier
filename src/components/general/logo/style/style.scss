@@ -1,0 +1,20 @@
+
+@import '../../../../style/main_style.scss';
+
+@font-face{
+    // font-family:'NSI';
+    font-family:'NSI';
+    src:local('NSI'), url(../resources/nsi.ttf) format('truetype')
+
+}
+.hpf_logo_container{
+
+    font-family:'NSI';
+    color:#ddd;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+
+}

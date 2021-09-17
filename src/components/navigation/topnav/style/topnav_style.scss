@@ -1,0 +1,43 @@
+@import '../../../../style/main_style.scss';
+
+
+.hpf_topnav_container{
+    // border-bottom: 1px solid #424242;
+    box-shadow: $hpf_div_box_shadow;
+    background-color: #151515;
+
+    height:60px;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hpf_topnav_content{
+    max-width:950px;
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.hpf_topnav_links{
+    display: flex;
+    flex-direction: row;
+}
+
+.hpf_topnav_link_button{
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.hpf_topnav_icon{
+    // height:30px;
+    width:22px;
+    margin-top:2px;
+    padding-left:20px;
+
+}

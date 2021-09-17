@@ -1,0 +1,87 @@
+
+$hpf_background: #101010;
+
+$hpf_background_b1: #151515;
+$hpf_background_b2: #191919;
+$hpf_background_b3: #232323;
+
+$hpf_foreground:#232323;
+$hpf_foreground_b1:#272727;
+$hpf_foreground_b2:#333;
+$hpf_foreground_b3:#363636;
+$hpf_foreground_b4:#424242;
+
+$hpf_div_box_shadow: 0 2px 10px 0 #0d0d0d;
+
+
+$hpf_border_radius:7px;
+
+$hpf_label_font_size:15px;
+$hpf_label_separation:15px;
+
+$hpf_page_title_size:40px;
+$hpf_page_title_color:#fff;
+$hpf_page_description_size:18px;
+$hpf_page_description_color:#ddd;
+
+
+$hpf_option_font_size:15px;
+$hpf_option_height:27px;
+
+$hpf_toggle_outer_width:42px;
+$hpf_toggle_inner_width:42px;
+$hpf_toggle_indicator_size:19px;
+$hpf_toggle_text_width:200px;
+
+$hpf_toggle_on_color:#26ab5dac;
+$hpf_toggle_off_color:#c0392b;
+
+// $hpf_toggle_on_color:#999;
+// $hpf_toggle_off_color:#555;
+
+$hpf_font_color_base:#fff;
+$hpf_font_color_d1:#ddd;
+$hpf_font_color_d2:#aaa;
+$hpf_font_color_d3:#999;
+$hpf_font_color_d4:#555;
+
+
+$hpf_button_background:#272727;
+$hpf_button_background_disabled:#232323;
+$hpf_button_text_color:#ddd;
+$hpf_button_text_color_disabled:$hpf_font_color_d4;
+$hpf_button_text_color_hover:#fff;
+$hpf_button_text_color_active:#ddd;
+
+
+$hpf_button_font_size:15px;
+
+$hpf_button_background_hover:#424242;
+$hpf_button_background_active:#202020;
+
+
+$hpf_heading_size_1:20px;
+$hpf_heading_size_2:18px;
+$hpf_heading_size_3:15px;
+
+$hpf_heading_size_1_subtext:15px;
+
+$hpf_partlink_background:#191919;
+$hpf_partlink_background_disabled:#191919;
+
+$hpf_partlink_font_color:#aaa;
+$hpf_partlink_font_color_disabled:#555;
+
+$hpf_partlink_background_hover:#333;
+$hpf_partlink_font_size:15px;
+$hpf_partlink_arrow_size:12px;
+
+$hpf_logo_size:3em;
+
+$hpf_sidebar_link_font_size:20px;
+$hpf_sidebar_link_separation:15px;
+$hpf_sidebar_link_color: $hpf_font_color_d2;
+$hpf_sidebar_link_active_color: $hpf_font_color_base;
+$hpf_sidebar_link_shadow_color: #636363;
+
+$hpf_mobile_tabs_height:60px;

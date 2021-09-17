@@ -1,0 +1,15 @@
+
+
+@import '../../../../style/main_style.scss';
+
+/* 
+    values useful in animation for toggle components
+*/
+
+:export{
+    hpf_toggle_text_width:$hpf_toggle_text_width;
+    hpf_option_height:$hpf_option_height;
+    hpf_toggle_indicator_size:$hpf_toggle_indicator_size;
+    hpf_toggle_inner_width:$hpf_toggle_inner_width;
+}
+

@@ -1,0 +1,122 @@
+
+@import '../../../../style/main_style.scss';
+@import './exports.module.scss';
+
+
+.hpf_toggle_text_container{
+
+    border-radius:$hpf_border_radius;
+    display: flex;
+    background-color:$hpf_background_b3;
+    width:$hpf_toggle_text_width;
+    height:$hpf_option_height;
+    font-size:$hpf_option_font_size;
+    position:relative;
+
+}
+
+.hpf_toggle_text_option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:3;
+    cursor: pointer;
+    color:$hpf_font_color_d3;
+    background:none;
+    border:none;
+    font-size:$hpf_option_font_size;
+}
+
+.hpf_toggle_text_option:hover{
+    color:$hpf_font_color_d1;
+}
+
+.hpf_toggle_text_option.active{
+    color:$hpf_font_color_base;
+    cursor:default;
+}
+
+.hpf_toggle_text_option_indicator{
+    background-color: $hpf_foreground_b3;
+    height:100%;
+    position:absolute;
+    z-index:1;
+    border-radius:$hpf_border_radius;
+}
+
+
+
+
+
+
+
+.hpf_toggle_container{
+    background-color:$hpf_foreground_b1;
+    height:$hpf_option_height;
+    width:$hpf_toggle_outer_width;
+    border-radius:calc(7.5px * 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:6px;
+    padding-right:6px;
+
+    position: relative;
+}
+
+.hpf_toggle_container:hover{
+    background-color:$hpf_foreground_b2;
+}
+
+.hpf_toggle_container_inner{
+    height:$hpf_toggle_indicator_size;
+    border-radius:10px;
+    padding:1px;
+    padding-right:0px;
+    width:100%;
+    position: relative;
+    width:$hpf_toggle_inner_width;
+}
+
+.hpf_toggle_clickable_area{
+    width:50%;
+    height:100%;
+    background-color:none;
+    position: absolute;
+    z-index:10;
+    cursor: pointer;
+
+}
+
+.hpf_toggle_clickable_area.left{
+    left:0;
+    border-radius:13.5px 0px 0px 13.5px;
+}
+
+.hpf_toggle_clickable_area.right{
+    right:0;
+    border-radius:0 13.5px 13.5px 0;
+}
+
+
+
+
+.hpf_toggle_indicator{
+    height:$hpf_toggle_indicator_size;
+    border-radius:50%;
+    width:$hpf_toggle_indicator_size;
+    background-color: $hpf_toggle_off_color;
+    box-shadow: 0 0px 10px 0 $hpf_toggle_off_color;
+    // cursor: pointer;
+    // margin-top:-px;
+    box-shadow:  0 0px 10px 3px $hpf_toggle_off_color;
+
+    position:absolute;
+}
+
+.hpf_toggle_indicator.active{
+    background-color: $hpf_toggle_on_color;
+    box-shadow:  0 0px 10px 3px $hpf_toggle_on_color;
+}
+
+

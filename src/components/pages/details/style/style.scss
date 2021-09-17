@@ -1,0 +1,19 @@
+
+
+@import '../../../../style/main_style.scss';
+
+
+.hpf_part_details_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hpf_part_details_desc{
+    font-size:15px;
+    color:$hpf_font_color_d3;
+}
+
+.hpf_part_details_title{
+    font-size:35px;
+    color: $hpf_font_color_base;
+}
