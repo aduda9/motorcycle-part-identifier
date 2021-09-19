@@ -8,13 +8,12 @@
 
   <p align="center">
 <br/>
-	
-    	Do you have several large boxes of unorganized OEM motorcycle parts? 
-	<br/>
-	<br/>
-	Are you tired of having to manually search for the part number in order to find out what the part is for? 
-	<br/>
-	<br/>
+Do you have several large boxes of unorganized OEM motorcycle parts? 
+<br/>
+<br/>
+Are you tired of having to manually search for the part number in order to find out what the part is for? 
+<br/>
+<br/>
 If so, this web app is for you.
     <br />
    <br />
