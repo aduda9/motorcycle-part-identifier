@@ -67,7 +67,7 @@ If so, this web app is for you.
 
 This web app uses Tesseract.JS (a JavaScript port of the [Tesseract OCR library](https://en.wikipedia.org/wiki/Tesseract_(software)) to scan live video frames for text strings that match OEM part number formats. 
 
-To get part data, it talks to [a Python Flask backend](), which queries eBay for matching parts. It then uses that information to determine a part name.
+To get part details, it sends part numbers to [a Python Flask backend](), which queries eBay for matching parts.
 
 All text recognition and image manipulation is performed in the browser! No images are sent externally. All inventory data is stored locally as well. 
 
