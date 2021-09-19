@@ -55,11 +55,13 @@ If so, this web app is for you.
 
 ## Features
 
-* Real-time part identification
-	* Point the camera at a Honda OEM part label, and the app will attempt to determine the part name.
+### Real-time part identification
 
-* Inventory management
-	* Search and manage part data, and download your inventory as a .CSV file.
+Point the camera at a Honda OEM part label, and the app will attempt to determine the part name.
+
+### Inventory management
+
+Search and manage part data, and download your inventory as a .CSV file.
 
 ## How it works
 
