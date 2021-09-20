@@ -67,7 +67,7 @@ Search and manage part data, and download your inventory as a .CSV file.
 
 ### Overview 
 
-This web app uses Tesseract.JS (a JavaScript port of the [Tesseract OCR library](https://en.wikipedia.org/wiki/Tesseract_(software)) to scan live video frames for text strings that match OEM part number formats. 
+This web app uses Tesseract.JS (a JavaScript port of the [Tesseract OCR library](https://en.wikipedia.org/wiki/Tesseract_(software))) to scan live video frames for text strings that match OEM part number formats. 
 
 To get part details, it sends part numbers to [a Python Flask backend](), which queries eBay for matching parts.
 
