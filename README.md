@@ -129,7 +129,7 @@ To get a local copy up and running follow the steps below.
 
 Most browsers will automatically deny camera access to pages served over regular HTTP. So, if you're running a local copy, you'll have to set ```HTTPS=true``` before running ```npm start```. See [this](https://stackoverflow.com/questions/44574399/create-react-app-how-to-use-https-instead-of-http) StackOverflow post for helpful information.
 
-If you're working with a local copy of the backend, you'll also have to enable [mixed content](https://stackoverflow.com/questions/44574399/create-react-app-how-to-use-https-instead-of-http) in your browser, or ensure that the backend is served over HTTPS as well. 
+If you're working with a local copy of the backend, you'll also have to enable [mixed content](https://web.dev/what-is-mixed-content/) in your browser, or ensure that the backend is served over HTTPS as well. 
 
 ## Todo
 
