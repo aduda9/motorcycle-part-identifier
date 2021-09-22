@@ -20,7 +20,7 @@ const HPFFooter=(props)=>{
                 <span className="hpf_footer_dummy"/>
                 <div className="hpf_footer_link">
                     View code on &nbsp;
-                    <div className="eb">GitHub</div>
+                    <a href="https://github.com/aduda9/motorcycle-part-identifier" className="eb">GitHub</a>
                 </div>
             </div>
         </div>
