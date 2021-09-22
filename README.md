@@ -69,7 +69,7 @@ Search and manage part data, and download your inventory as a .CSV file.
 
 This web app uses Tesseract.JS (a JavaScript port of the [Tesseract OCR library](https://en.wikipedia.org/wiki/Tesseract_(software))) to scan live video frames for text strings that match OEM part number formats. 
 
-To get part details, it sends part numbers to [a Python Flask backend](), which queries eBay for matching parts.
+To get part details, it sends part numbers to [a Python Flask backend](https://github.com/aduda9/mpi-backend), which queries eBay for matching parts.
 
 All text recognition and image manipulation is performed in the browser! No images are sent externally. All inventory data is stored locally as well. 
 
@@ -104,7 +104,7 @@ As of now, only Honda parts are supported.
 
 The only way I could obtain OEM motorcycle part data (without web scraping) was to use eBay as the data source. So if a part hasn't been sold on eBay, the app won't be able to return information about it.
 
-The part name is determined by analyzing eBay listing titles, so there is some variability with that as well. See the [backend]() docs for more information.
+The part name is determined by analyzing eBay listing titles, so there is some variability with that as well. See the [backend](https://github.com/aduda9/mpi-backend) docs for more information.
 
 ## Development
 
